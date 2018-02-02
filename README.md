@@ -26,6 +26,7 @@
 
 ## Unity基本操作
 - 基本操作
+- Build SettingsをWebGLに切り替えておく
 - カメラを固定にする
 - Sun(Directional Light)でPBR体験 Xを0辺りにする
 - FPS Controllerのコントローラーを無効にして動かなくして、位置を調整
