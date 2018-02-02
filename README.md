@@ -68,3 +68,7 @@
 - [Unity Technologies. Post Processing Stack]
 - CameraのBloomの値を調整したり、外したりして、画面効果を確認する
 
+# WebGL
+- Edit -> Project Settings -> Qualityで、WebGLを最高クオリティに変更
+- 学校でやる時は、GzipをDisableに変更
+
