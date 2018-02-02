@@ -23,7 +23,6 @@
 - Asset Storeでサンプルを確認
   - [RED PANDA. Sky City Lite](http://u3d.as/vPD)
     - CrossPlatformInputInitialize.csを消す
-    - [Quad-arrow. ファイティングユニティちゃん　無料お試しアセット](http://u3d.as/cyd)
 
 ## Unity基本操作
 - 基本操作
@@ -32,14 +31,11 @@
 - FPS Controllerのコントローラーを無効にして動かなくして、位置を調整
 
 ## キャラクターの読み込み
-- マルチシーンにする
-- Unityちゃん側のカメラとライトを消す
-- 床(sky_floor_lod1 (6))の場所を確認して、Unityちゃんを移動させる
-- カメラを調整
-- ライトが暗くなったら、焼きこむ
-
-## PBRの確認
-- CameraのBloomの値を調整したり、外したりして、画面効果を確認する
+- [unity-chan! "Unity-chan!" Model](https://assetstore.unity.com/publishers/7659)
+- Actionシーン
+- 表情とシーン切り替えメニューを消す
+  - FaceUpdateスクリプトを無効にする
+  - 2つのLevelUpdateオブジェクトを消す
 
 # 自作キャラクターをUnityで動かす手順
 今回は Sketchfab から素体を探して入れてみましょう。
@@ -50,5 +46,25 @@
   - Model Informationで容量などを確認。FBX推奨
   - 容量は、ダウンロード時に20倍ぐらいになるので注意
   - https://sketchfab.com/models/b5f1d7635a5b41f0847a2ee5b906098a
-- Unityに読み込んで、新規にマテリアルを作成して、
+
+## MAYAでアニメーションの設定
+
+
+## Unityで動かす
+- Unityに読み込み
+- Importerで以下をやってApply
+  - カメラなどの不要なチェックをはずす
+  - RigをHumanoidにする
+- Unityちゃんの子供にする
+- Unityちゃんのチェックをはずす
+- Unityちゃんのルートのアニメーションのアバターを入れかえる(キャラクターについているAnimatorは設定不要)
+
+# PBRの確認
+- 新規にマテリアルを作成して、テクスチャーを設定
+  - Normalをノーマルマップにして読み直し
+- ライティングを設定して、焼き込む
+- キャラクターを読み込む
+  - Metaricにディテールを設定
+- [Unity Technologies. Post Processing Stack]
+- CameraのBloomの値を調整したり、外したりして、画面効果を確認する
 
