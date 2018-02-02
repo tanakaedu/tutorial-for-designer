@@ -42,4 +42,13 @@
 - CameraのBloomの値を調整したり、外したりして、画面効果を確認する
 
 # 自作キャラクターをUnityで動かす手順
+今回は Sketchfab から素体を探して入れてみましょう。
+
+- https://sketchfab.com/ を開く
+- Modelsを選択して、FiltersのFETURESでDownloadableをチェック
+- Characterで検索
+  - Model Informationで容量などを確認。FBX推奨
+  - 容量は、ダウンロード時に20倍ぐらいになるので注意
+  - https://sketchfab.com/models/b5f1d7635a5b41f0847a2ee5b906098a
+- Unityに読み込んで、新規にマテリアルを作成して、
 
