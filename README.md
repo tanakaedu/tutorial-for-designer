@@ -2,6 +2,7 @@
 2018冬デザイナー向け体験講義資料
 
 ## デザイナー向け2コマ : Unityを活用した就活向けの作品作り
+- スライド https://gitpitch.com/tanakaedu/tutorial-for-designer/fordesigner
 - 作品の構造やクオリティのレベルを把握する / 動くデモの公開方法
 - Unityの基本操作の振り返り
 - Asset Storeの利用
