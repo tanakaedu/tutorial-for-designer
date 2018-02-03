@@ -1,5 +1,19 @@
-# tutorial-for-designer
+# tutorial-for-designer(WIP)
 2018冬デザイナー向け体験講義資料
+
+## デザイナー向け2コマ : Unityを活用した就活向けの作品作り
+- 作品の構造やクオリティのレベルを把握する / 動くデモの公開方法
+- Unityの基本操作の振り返り
+- Asset Storeの利用
+- Unityを使った背景デモの作成
+- WebGLビルド
+- GitHubに公開
+- キャラクターのデモを作成
+
+## 一般学生3コマ
+- Unityの使い方
+- Asset Storeで遊ぶ
+- 
 
 - UnityとAsset Storeの活用
 - 背景用のデモを作成する
